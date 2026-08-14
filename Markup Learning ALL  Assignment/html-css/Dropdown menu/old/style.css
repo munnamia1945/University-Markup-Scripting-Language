@@ -1,0 +1,65 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.main-manu{
+          background:rgb(090,040,146);
+}
+
+.main-manu ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	
+}
+
+.main-manu ul li{
+	float:left;
+	position:relative;
+	
+}
+.main-manu ul:after{
+	             content: '';
+				 display: block;
+				 clear:both;
+	
+                        }
+
+
+
+
+.main-manu ul li a{
+	  text-decoration:none;
+	  color: #fff;
+	  font-size:20px;
+	  padding: 10px 25px;
+	  display:block;
+	  
+}
+
+.main-manu ul li:hover{
+	background: rgba(0,0,0,.67);
+	
+}
+
+
+/** drop Downn**/
+
+
+.main-manu ul ul li{
+	float:none;
+	
+}
+
+.main-manu ul ul {
+	           position:absolute;
+			   top:100%;
+			   left:0px;
+			   display:block;
+			   background: red;
+	
+}
+
+
+

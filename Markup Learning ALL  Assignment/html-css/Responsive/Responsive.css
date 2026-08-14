@@ -1,0 +1,65 @@
+@media all and (max-width:900px){
+	
+	.left-area{
+	background:#938584;
+	height: 200px;
+	width:30%;
+	
+}
+
+.center-area{
+	background:red;
+	height: 200px;
+	width:40%;
+	
+}
+
+.right-area{
+	background:#8bc34a;
+	height: 200px;
+	width:30%;
+	
+}
+
+.header-area{
+	background:#d5ac30;
+	height: 200px;
+		
+}
+
+.footer-area{
+	background: green;
+	height:200px;
+}
+
+}
+
+
+
+@media all and (max-width:700px){
+	
+	
+	.left-area{
+	width:100%;
+	float:none;
+	
+	}
+.center-area{
+	width:100%;
+	float:none;
+}
+
+.right-area{
+	width:100%;
+	float:none;
+}
+
+	
+}
+
+
+
+
+
+	
+	

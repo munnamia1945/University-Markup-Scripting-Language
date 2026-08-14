@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+.header-area{
+	       
+			background:green;
+			height:250px;
+	
+}
+
+
+.left-area{
+	background: #c52828;
+    height: 250px;
+	width:300px;
+	float: left;
+	
+	
+}
+.center-area{
+	    background: #ab9b48;
+    height: 250px;
+	width:749px;
+	float: left;
+	
+}
+
+.right-area{
+	
+   background: #526d79;
+    height: 250px;
+    width:300px;
+	float: left;
+	
+	}
+	
+	
+
+.fotter-area{
+	background: #87b391;
+    height: 250px;
+	
+}
+
+
+.total-center:after{
+		content:'';
+		display: block;
+		clear:both;
+	}
+	
+	

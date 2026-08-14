@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav">
+            <h1>My E-Commerce Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#learning">Learning</a></li>
+                    <li><a href="#cart">Cart <span id="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div>
+                    <p class="eyebrow">HTML • CSS • JavaScript</p>
+                    <h2>Simple shopping page with a modern look.</h2>
+                    <p>Academic web design practice using a basic e-commerce layout, responsive CSS and small JavaScript interactions.</p>
+                    <a class="button" href="#products">Explore Products</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80" alt="Wrist watch product">
+            </div>
+        </section>
+
+        <section id="products" class="products container">
+            <div class="section-heading">
+                <p class="eyebrow">Featured</p>
+                <h2>Products</h2>
+            </div>
+
+            <div class="product-grid">
+                <article class="product">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80" alt="Classic watch">
+                    <div class="product-info">
+                        <h3>Classic Watch</h3>
+                        <p>A simple everyday accessory.</p>
+                        <strong>$10.00</strong>
+                        <button class="add-cart" data-name="Classic Watch">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80" alt="Running shoe">
+                    <div class="product-info">
+                        <h3>Running Shoe</h3>
+                        <p>Comfortable and lightweight design.</p>
+                        <strong>$15.00</strong>
+                        <button class="add-cart" data-name="Running Shoe">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80" alt="Headphones">
+                    <div class="product-info">
+                        <h3>Headphones</h3>
+                        <p>Clean design for everyday listening.</p>
+                        <strong>$20.00</strong>
+                        <button class="add-cart" data-name="Headphones">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="learning" class="learning">
+            <div class="container learning-grid">
+                <div>
+                    <p class="eyebrow">Learning Resource</p>
+                    <h2>Responsive E-Commerce Website Tutorial</h2>
+                    <p>This embedded YouTube lesson demonstrates how HTML, CSS and JavaScript can be combined to build a responsive e-commerce interface.</p>
+                </div>
+                <div class="video">
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/P8YuWEkTeuE"
+                        title="Responsive E-Commerce Website using HTML CSS and JavaScript"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="cart" class="cart container">
+            <h2>Cart</h2>
+            <p id="cart-message">Your cart is empty.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My E-Commerce Store | Academic Web Design Practice</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

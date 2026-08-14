@@ -1,0 +1,4 @@
+function changeImage() {
+    document.getElementById("mainImage").src =
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=80";
+}

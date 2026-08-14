@@ -1,0 +1,129 @@
+body{
+	margin:0;
+	padding:0;
+}
+.header-part{
+	background:#3B5998;
+	
+	
+	
+}
+.middle-part{
+	width: 1100px;
+    margin: auto;
+    padding: 0 0;
+    display: block;
+}
+.logo-area{
+	color:#fff;
+	width:20%;
+	float:left;
+	
+}
+
+
+
+
+.login-area{
+	width:80%;
+	float:left;
+}
+.middle-part:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.pagla{
+	font-size:48px;
+	display:block;
+	margin-top:30px;
+}
+.pagla p{
+	font-family:Berlin Sans FB;
+	margin:0;
+	padding:0;
+}
+
+.pagla span{
+	font-family: Bahnschrift;
+	margin:0;
+	padding:0;
+}
+
+.amera{
+	float:right;
+	margin:0;
+	padding:
+}
+label{
+	display:block;
+	margin-top:10px;
+	margin-bottom:5px;
+	color:#fff;
+	font-size:14px;
+	cursor:pointer;
+}
+
+.login-first{
+	float:left;
+	margin-right:10px;
+}
+.login-second{
+	float:left;
+}
+.input-part{
+	float:left;
+	margin-top:26px;
+	margin-left:8px;
+}
+.login-area:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.login-area input{
+	display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    border: 1px solid #1d2a5b;
+    padding: 3px;
+	
+}
+.input-part input{
+	color:#fff;
+	background:#4267b2;
+	border: 1px solid #4267b2;
+	cursor: pointer;
+}
+.input-part input:hover{
+	background:#7fa1e7;
+	border: 1px solid #4267b2;
+	
+	
+}
+.login-second p{
+	margin:0;
+	padding:0;
+	
+}
+
+
+
+.login-second a{
+	
+	text-decoration:none;
+	color:#9cb4d8;
+	font-size:15px;
+	cursor:pointer;
+	margin-top:5px;
+	display:block;
+}
+
+.login-second a:hover{
+	text-decoration:underline;
+	
+	
+}
+

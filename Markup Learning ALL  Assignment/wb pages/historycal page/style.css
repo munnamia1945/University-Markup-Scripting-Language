@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eef2f5;
+    color: #263238;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header-area {
+    min-height: 190px;
+    margin: 10px;
+    padding: 25px;
+    background: #173f5f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 12px;
+}
+
+.logo-area {
+    width: 115px;
+    height: 115px;
+    padding: 6px;
+    background: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header-text h1 {
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+.header-text p {
+    color: #cde7f7;
+    letter-spacing: 1px;
+}
+
+.middle {
+    width: min(1180px, 94%);
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 68% 30%;
+    gap: 2%;
+}
+
+.content {
+    display: grid;
+    gap: 20px;
+}
+
+.card,
+.sidebar,
+.video-section {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 20px;
+    padding: 18px;
+}
+
+.card img {
+    width: 180px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.card h2,
+.video-section h2,
+.sidebar h2 {
+    color: #173f5f;
+    margin-bottom: 10px;
+}
+
+.card p,
+.sidebar p,
+.video-note {
+    text-align: justify;
+}
+
+.video-section {
+    padding: 22px;
+}
+
+.video-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #111;
+    margin-top: 15px;
+}
+
+.video-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.sidebar {
+    padding: 20px;
+    height: fit-content;
+}
+
+.sidebar > img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f0f6fa;
+    border-left: 4px solid #173f5f;
+}
+
+.info-box ul {
+    padding-left: 20px;
+}
+
+.footer {
+    margin: 10px;
+    padding: 35px;
+    text-align: center;
+    background: #173f5f;
+    color: white;
+    border-radius: 12px;
+}
+
+@media (max-width: 800px) {
+    .header-area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .middle {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        width: 100%;
+        height: 220px;
+    }
+}

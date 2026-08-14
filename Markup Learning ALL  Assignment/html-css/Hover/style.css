@@ -1,0 +1,64 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.bb{
+	width:300px;
+	height:400px;
+	background-image:url("image/Bangabandhu_in_1950.jpg");
+	background-size:cover;
+	margin:30px auto;
+	
+}
+
+.bb h4{
+	width:60%;
+	margin:10px auto;
+	padding:20px 0;
+	color:#b9af41;
+	
+	
+	
+	
+}
+
+
+.bb p{
+	color:#b9af41;
+	text-align:justify;
+	width:90%;
+	margin: auto;
+	
+}
+
+
+
+
+
+
+.bb:hover .munna{
+	
+	background-image:url("image/Bangabandhu_1940.jpg");
+	
+color:#b9af41;
+	text-align:justify;
+	width:90%;
+	margin: auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

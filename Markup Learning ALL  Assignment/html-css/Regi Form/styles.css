@@ -1,0 +1,52 @@
+body{
+	background-image:url(image/greens.jpg);
+	background-size:cover;
+}
+
+.amaderform{
+	width:500px;
+	margin:30px auto;
+	background:rgba(0,0,0, .39);
+	padding:30px;
+	border-radius:3px;
+	
+
+}
+
+.amaderform input {
+	display:block;
+	width:90%;
+	margin:10px auto;
+	padding:5px;
+	font-size:18px;
+	border:1px yellow solid;
+	border-radius:3px;
+	
+	
+	
+	
+}
+
+.amaderform label{
+ color:#fff;
+ Cursor:pointer;
+   font-weight: bold;
+ 
+}
+
+
+#login{
+	width:100px;
+	border:3px yellow solid;
+	border-radius:6px;
+	
+}
+.amaderform p { 
+      font-size:20px;
+      color:#fff;	  
+}
+
+.amaderform p a { 
+      text-decoration:none;
+color:yellow;	  
+}

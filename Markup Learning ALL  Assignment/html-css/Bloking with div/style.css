@@ -1,0 +1,27 @@
+body{
+	margin:0;
+	padding:0;
+}
+ .mainpart{
+	 width:98%;
+	 margin:auto;
+ }
+
+.partt{
+	width:250px;
+	height:350px;
+	background-image: url(images/ss.jpg);
+	background-size:cover;
+	background-position: top left;
+	border: 2px solid yellow;
+	float:left;
+	margin-top:9px;
+	margin-left:9px;
+	transition:.3s;
+	
+	
+}
+
+.partt:hover{
+	background-position: bottom right;
+}
